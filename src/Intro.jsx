@@ -6,8 +6,11 @@ const Intro = () => {
   return (
     <div className="intro">
       <div className="intro-image">
-        <img src={profileImg} alt="Profile" />
-      </div>
+          <img src={profileImg} alt="Profile" />
+          <div className="overlay-text">
+            Checkout My Portfolio
+          </div>
+        </div>
       
       
       <p className="intro-text">
@@ -16,17 +19,17 @@ const Intro = () => {
       
       <div className="contact-info">
         <div className="contact-item">
-          <Phone size={32} className="contact-icon" />
+          <Phone size={38} className="contact-icon" />
           <span className="contact-text">Your phone number here</span>
         </div>
         
         <div className="contact-item">
-          <Mail size={32} className="contact-icon" />
+          <Mail size={38} className="contact-icon" />
           <span className="contact-text">tobby@gmail.com</span>
         </div>
         
         <div className="contact-item">
-          <Twitter size={32} className="contact-icon" />
+          <Twitter size={38} className="contact-icon" />
           <a href="https://twitter.com/yourusername" className="contact-text" target="_blank" rel="noopener noreferrer">
             Twitter Profile
           </a>

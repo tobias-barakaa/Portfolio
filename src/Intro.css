@@ -20,6 +20,23 @@
    border-bottom: 2px solid #242424;   
 
   }
+
+  .overlay-text {
+    position: absolute; /* Positions it relative to .intro-image */
+    left: 50%; /* Centers horizontally within .intro-image */
+    transform: translate(-50%, -50%); /* Ensures perfect centering */
+    background-color: #1f4d55; /* Background color for the text */
+    color: rgb(186, 103, 1); /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold; /* Bold text for emphasis */
+    border-radius: 5px; /* Optional: rounded corners */
+    text-align: center;
+    z-index: 1; /* Ensures it appears above the image */
+    margin-top: -3rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }  
   
   .horizontal-line {
     height: 1px;
@@ -57,7 +74,7 @@
   }
   
   .contact-text {
-    font-size: 16px;
+    font-size: 1.5rem;
     color: #333;
     text-decoration: none;
   }
