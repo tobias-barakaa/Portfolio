@@ -1,9 +1,9 @@
 .profile {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center the text */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
     margin-left: -5rem;
     
   }
@@ -12,10 +12,12 @@
     font-style: italic;
     font-size: 1.5rem;
     margin-top: 6rem; 
+    color: #a35803;
+    margin-bottom: 1rem;
   }
   
   .name {
     font-size: 3rem;
-    font-weight: bold;
+    color: #3c626b;
   }
   

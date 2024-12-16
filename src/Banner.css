@@ -6,17 +6,22 @@
     background-color: rgba(255, 255, 255, 0.601);
     border: 2px solid white;
     width: 80rem;
-    margin-left: -3rem;
+    margin-top: 2rem;
   }
 
 
+ 
 
-.portfolio-icon {
-    margin-left: 16px;
+  
+  .portfolio-icon {
+    margin-right: 10px;
   }
   
-  .portfolio-text {
+  .portfolio-div {
+    margin-left: auto; 
+    font-size: 2.5rem;
+    margin-right: 15rem;
+    font-weight: 700;
     color: red;
-    margin-left: 8px;
   }
   
