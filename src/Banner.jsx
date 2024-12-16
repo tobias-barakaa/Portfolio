@@ -6,7 +6,7 @@ const Banner = () => {
     <div>
       <div className="portfolio-banner">
         <div className='portfolio-div'>
-        <Book color="red" size={32} className="portfolio-icon" />
+        <Book size={44} className="portfolio-icon" />
         <span className="portfolio-text">My Portfolio</span>
         </div>
       </div>

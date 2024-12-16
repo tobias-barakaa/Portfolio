@@ -1,0 +1,43 @@
+/* Container for the homepage */
+.homepages {
+    display: flex;
+    margin-top: 0rem;
+    padding-left: 8rem;
+  }
+  
+  /* Navigation styles */
+  .navigation {
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .nav-item:hover,
+  .nav-item.active {
+    background-color: #1f4d55;
+    color: white;
+  }
+  
+  .nav-icon {
+    margin-right: 10px;
+  }
+  
+  /* Content styles */
+  .content {
+    flex: 190;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  

@@ -4,20 +4,18 @@
     justify-content: center; 
     align-items: center; 
     text-align: center; 
-    margin-left: -5rem;
-    
-  }
+    margin-left: -8rem;
+}
   
   .hello {
     font-style: italic;
     font-size: 1.5rem;
     margin-top: 6rem; 
     color: #a35803;
-    margin-bottom: 1rem;
   }
   
   .name {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #3c626b;
   }
   
