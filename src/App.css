@@ -1,0 +1,54 @@
+.homepage {
+  background-image: url('./assets/similar.jpg'); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding-left: 40px;
+  padding-top: 60px;
+}
+
+
+
+
+
+
+.navigation {
+  margin-top: 32px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  color: #3c626b;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  width: 200px;
+
+}
+
+.nav-item.active {
+  background-color: #3c626b;
+  color: white;
+  width: 200px;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}

@@ -1,0 +1,21 @@
+.profile {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center the text */
+    margin-left: -5rem;
+    
+  }
+  
+  .hello {
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-top: 6rem; 
+  }
+  
+  .name {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
