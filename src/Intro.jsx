@@ -1,5 +1,5 @@
-import { Phone, Mail, Twitter } from 'lucide-react';
 import './Intro.css';
+import Skills from './Skills';
 import profileImg from './assets/port.png'; 
 
 const Intro = () => {
@@ -16,8 +16,11 @@ const Intro = () => {
       <p className="intro-text">
         I'm a <span className="highlight">user experience Full-Stack web developer</span> currently Learning  <span className="highlight">Elixir, MO</span>. I'm also a technical Writer, musician, and gamer geek and spend entirely too much time online.
       </p>
+
+
+<Skills />
       
-      <div className="contact-info">
+      {/* <div className="contact-info">
         <div className="contact-item">
           <Phone size={38} className="contact-icon" />
           <span className="contact-text">Your phone number here</span>
@@ -34,7 +37,7 @@ const Intro = () => {
             Twitter Profile
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
