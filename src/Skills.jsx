@@ -1,6 +1,7 @@
-import React from 'react';
 import './Skills.css';
-import skillsImage from './assets/similar.jpg'; // Add your skills-related image
+// import skillsImage from './assets/Imean.jpeg'; 
+import skillsImage from './assets/tobss.jpg'; 
+
 
 const Skills = () => {
   const skillsList = [
