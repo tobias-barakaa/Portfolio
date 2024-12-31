@@ -1,0 +1,90 @@
+.portfolio-container {
+    padding: 40px 20px;
+  }
+  
+  .portfolio-intro {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    max-width: 800px;
+    color: black;
+    font-weight: bold;
+   
+  }
+  
+  .highlight {
+    color: #ff0000;
+  }
+  
+  .portfolio-grid {
+    margin-top: 30px;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+  .project-card {
+    text-align: center;
+  }
+  
+  .project-image {
+    width: 270px;
+    height: 150px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: solid 10px #e8e8e8;
+    cursor: pointer;
+  }
+
+  .project-image:hover {
+    
+    margin: 0 auto 15px;
+    overflow: hidden;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: solid 10px #ffffff;
+    cursor: pointer;
+  }
+
+  
+  .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-title {
+    color: #ff0000;
+    font-size: 20px;
+    margin: 10px 0;
+    display: inline-block;
+
+  }
+  
+  .project-tech {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Make sure items are evenly spaced on different screen sizes */
+  @media (max-width: 768px) {
+    .portfolio-intro {
+      font-size: 20px;
+    }
+  
+    .portfolio-grid {
+      justify-content: center;
+    }
+  
+    .portfolio-item {
+      margin-bottom: 40px;
+    }
+  }

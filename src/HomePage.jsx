@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Home, Briefcase, FileText, User, Phone } from "lucide-react";
 import Intro from "./Intro";
+import Portfolio from "./Portfolio";
 import "./HomePage.css";
+import MyResume from "./MyResume";
+import AboutMe from "./AboutMe";
 
 const HomePage = () => {
   const [activeItem, setActiveItem] = useState("intro");
@@ -33,6 +36,12 @@ const HomePage = () => {
       {/* Content */}
       <div className="content">
         {activeItem === "intro" && <Intro />}
+        {activeItem === "portfolio" && <Portfolio />}
+        {activeItem === "resume" && <MyResume />}
+        {activeItem === "about" && <AboutMe />}
+
+
+
       </div>
     </div>
   );

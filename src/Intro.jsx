@@ -14,7 +14,7 @@ const Intro = () => {
       
       
       <p className="intro-text">
-        I'm a <span className="highlight">user experience Full-Stack web developer</span> currently Learning  <span className="highlight">Elixir, MO</span>. I'm also a technical Writer, musician, and gamer geek and spend entirely too much time online.
+        I'm a <span className="highlight">user experience Javascript/Python Full-Stack web developer</span> currently Learning  <span className="highlight">Elixir, MO</span>. I'm also a technical Writer, musician, and gamer geek and spend entirely too much time online.
       </p>
 
 
