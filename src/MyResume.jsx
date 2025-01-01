@@ -2,10 +2,13 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Download } from 'lucide-react';
 import './MyResume.css';
+import Banner from './Banner';
 
 const MyResume = () => {
   return (
     <Container className="resume-container">
+            <Banner heading="My Resume" />
+
       <h2 className="resume-title">My Resume</h2>
       
       <h4 className="resume-subtitle">

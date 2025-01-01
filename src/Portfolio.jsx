@@ -32,7 +32,8 @@ const Portfolio = () => {
 
   return (
     <Container className="portfolio-container">
-      <Banner />
+            <Banner heading="My Portfolio" />
+
       <div className="portfolio-intro">
         I've had the pleasure of working with some great <span className="highlight">clients / <br />agencies</span> over the years. Here are a few of my favorites.
       </div>

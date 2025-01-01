@@ -5,6 +5,7 @@ import Portfolio from "./Portfolio";
 import "./HomePage.css";
 import MyResume from "./MyResume";
 import AboutMe from "./AboutMe";
+import ContactMe from "./ContactMe";
 
 const HomePage = () => {
   const [activeItem, setActiveItem] = useState("intro");
@@ -39,6 +40,8 @@ const HomePage = () => {
         {activeItem === "portfolio" && <Portfolio />}
         {activeItem === "resume" && <MyResume />}
         {activeItem === "about" && <AboutMe />}
+        {activeItem === "contact" && <ContactMe />}
+
 
 
 
